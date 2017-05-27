@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sobre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper1"
+    tools:context="lucas.digimon.SobreActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_name"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:background="#a000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cersion"
+        android:background="#a000"/>
+
+    <ImageView
+        android:layout_width="@dimen/splash_logo_height"
+        android:layout_height="@dimen/splash_logo_width"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:background="#a000"
+        android:layout_marginTop="30dp"
+        android:text="@string/name"/>
+
+</LinearLayout>

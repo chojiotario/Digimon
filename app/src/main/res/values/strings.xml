@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Digimon</string>
+    <string name="Jogar">Jogar</string>
+    <string name="Sair">Sair</string>
+    <string name="digite_nome">Digite seu nome</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="sexo">Escolha seu gênero</string>
+    <string name="comecar">Começar</string>
+    <string name="sobre">Sobre</string>
+    <string name="game_name">Digimon</string>
+    <string name="cersion">Vesão 1.0.0</string>
+    <string name="name">Lucas Vianna  RM76704</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="qtd_fichas">Quantidade de fichas:</string>
+    <string name="tv_qtd_fichas">Selecione uma quantidade de fichas</string>
+
+    <string-array name="fichas_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>
